@@ -1,5 +1,5 @@
 # Football Playbook
-Learn about programming by developing a flag football playbook website.
+Learn about programming by creating a website to manage flag football plays.
 
 Learn how to create a web page with this easy to follow example using HTML/CSS/JAVASCRIPT. 
 
