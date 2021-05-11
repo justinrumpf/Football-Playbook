@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!--Title in browser tab-->
+    <title>Football Playbook</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Teach Kids to Code with a Football Playbook">
+    <meta name="author" content="Justin Rumpf">
+
+    <!--Bootstrap CSS for the styles-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!--styles.css is where the custom stylization is-->
+    <link href="css/styles.css" rel="stylesheet">
+    
+
+    <!-- This project requires jQuery and Bootstrap-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Javascript to be able to draw on the plays-->
+    <script src="js/draw.js"></script>
+
+ 
+
+  </head>
+
+  <body style="height:100%;padding-right:0px; padding-left:0px;">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Title on Page -->
+          <a style="margin-left:10px;" class="brand" href="#">Football Plays</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <!-- Menu options -->
+              <li class="active"><a style="margin-left:10px;" href="index.html">Home</a></li>
+              <!-- Back/Exit button -->
+              <li><button type="button" class="btn btn-primary" style="margin-left:10px;"  onclick=" window.history.back();">Exit Play</button></li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+        <div id="PlayPage">
+          <!-- Play name gets filled in here. -->
+          <h3 style="margin-left:10px;line-height:20px;"><div id="PlayName"></div></h3>
+
+          <!-- This is where the play image gets filled in -->
+            <canvas  id="canvas" width="550" height="400" >
+              Your browser does not support the canvas element.
+            </canvas>
+
+        </div>
+  
+    </div> 
+
+  </body>
+</html>
+   <!-- Custom javascript for play detail -->
+   <script src="js/playdetail.js"></script>
