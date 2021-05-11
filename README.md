@@ -1,5 +1,5 @@
 # Football Playbook
-Teach kids about programming by developing a flag football playbook.
+Learn about programming by developing a flag football playbook website.
 
 Learn how to create a web page with this easy to follow example using HTML/CSS/JAVASCRIPT. 
 
